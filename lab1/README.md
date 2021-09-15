@@ -33,6 +33,8 @@ sysctemctl enable service
  done
  ```
 2. установить дистрибутив Debian 8 и написать sysvnit скрипт для запуска процесса, добавить в автозагрузку, проверить автозагрузку и работу start stop аргументов
+![script](1.2.png "script")
 3. Установить Debian 10, написать systemd unit, ш в автозагрузку, проверить что скрипт запускается после рестарта, проверить start stop status unit-а
+![script](1.3.png "script")
 4. написать timer для systemd который раз в 5 минут пишет что-либо в лог файл
-https://github.com/Kirito1899/kurs5-linux/blob/c10c7ce8df8abcc0a12228e843b3a763112b5749/lab1/image.png
+![script](image.png "script")
